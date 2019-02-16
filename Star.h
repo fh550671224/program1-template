@@ -10,7 +10,7 @@ class Planet{
         char type;
 	public:
 		Planet(){this->id=-1;};
-		Planet();
+		Planet(int);
         int orbit();
 		long getID();
         int getDistance();

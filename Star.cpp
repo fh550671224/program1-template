@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Planet::Planet(){
+Planet::Planet(int distance){
 	this->id = (long)this;      //NOT SURE
 	this->distance = rand() % 3001 ;
     this->pos = rand() % 360 ;
